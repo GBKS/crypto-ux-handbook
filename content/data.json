@@ -1,0 +1,64 @@
+{
+	"toc": [
+		{
+			"id": "", 
+			"name": "Overview",
+			"description": ""
+		},
+		{
+			"id": "intro", 
+			"name": "Intro",
+			"description": ""
+		},
+		{
+			"id": "types-of-software",
+			"name": "Types of software",
+			"description": "Get an overview of the most common types of cryptocurrency and blockchain software categories."
+		},
+		{
+			"id": "wallets", 
+			"name": "Wallets",
+			"description": "Find out what functionality is typically found in cryptocurrency wallets and how it's structured."
+		},
+		{
+			"id": "user-onboarding", 
+			"name": "User onboarding",
+			"description": "User onboarding is the process of increasing the likelihood that new users become successful when adopting your product."
+		},
+		{
+			"id": "first-use", 
+			"name": "First use",
+			"description": "Learn how cryptocurrency wallets typically introduce users to their functionality."
+		},
+		{
+			"id": "creating-a-wallet", 
+			"name": "Creating a wallet",
+			"description": "An overview of how wallets are created and how the steps can be presented to users."
+		},
+		{
+			"id": "sending", 
+			"name": "Sending",
+			"description": "Learn about best practices and common patterns for designing cryptocurrency transactions."
+		},
+		{
+			"id": "requesting", 
+			"name": "Requesting",
+			"description": "Best practices for designing cryptocurrency request interfaces."
+		},
+		{
+			"id": "transactions", 
+			"name": "Transactions",
+			"description": "Transactions are at the heart of blockchain and so they are typically shown right on the home screen of any wallet. Users quickly want to see if a transaction they made was processed and if any new new ones have come in."
+		},
+		{
+			"id": "addresses", 
+			"name": "Addresses",
+			"description": "Find out how to design addresses and address management interfaces for cryptocurrencies."
+		},
+		{
+			"id": "home-screens", 
+			"name": "Home screens",
+			"description": "Examples and best practices of home screen designs for cryptocurrency software."
+		}
+	]
+}
