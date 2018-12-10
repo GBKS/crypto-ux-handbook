@@ -31,7 +31,7 @@ A handbook is meant to be practical for day-to-day use. These guidelines are bas
 
 ## Working with this repository
 
-You can preview the content of this repository [here](https://gbks.github.io/crypto-ux-handbook/). The content is written in [markdown](https://daringfireball.net/projects/markdown/), with the addition of a few custom components that require HTML (in the markdown). Those are not well-documented yet, so it's best to refer to the existing markdown files to start.
+You can preview the content of this repository [here](https://gbks.github.io/crypto-ux-handbook/). The content is written in [markdown](https://daringfireball.net/projects/markdown/), with the addition of a few custom components that require HTML (in the markdown). These components are not well-documented yet, so it's best to refer to the existing markdown files to start. Every page in the handbook has a single markdown file ("content/page-name"), and a dedicated folder for images ("images/page-name"). Images are not 100% well organized at the moment.
 
 Use [Issues](https://github.com/GBKS/crypto-ux-handbook/issues) to discuss the content and request additions and improvements.
 
