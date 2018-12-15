@@ -19,3 +19,7 @@ This site is a work-in-progress. <a href="mailto:chri@sto.ph">Let me know</a> if
 ## About
 
 This site was created by [Christoph Ono](http://www.germanysbestkeptsecret.com) as a reference tool for good practices in crypto UX. While helping redesign the [Monero wallet](https://github.com/GBKS/monero-wallet-design) and talking to people in the wider community, I kept hearing that there isn't enough information about designing for crypto online. This is my effort to help address this and hopefully make it easier for others to design better.
+
+## Contribute
+
+See something that can be improved? Contribute on the [Github repo](https://github.com/GBKS/crypto-ux-handbook). Want to see something added but don't have the time or resources? Set up a [bounty here](https://explorer.bounties.network/bounty/1908).
