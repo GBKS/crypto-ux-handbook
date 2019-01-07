@@ -180,6 +180,23 @@ Most wallet software also requires setup of a PIN during first use for extra sec
 
 ---
 
+## Data ownership & storage
+
+<fig desktop="half,right">
+	<fig-img
+		src="/images/first-use/data-storage.jpg"
+		width="1200"
+		height="800"
+		alt="Data storage in blockchain"
+	/>
+</fig>
+
+Typical Internet services we use (like Facebook or Google) store all of our information and simply grant us access to them with the right username and password. In crypto, the setup is different. We store our own "access information" (seed & keys instead of username and password), either on paper, or in a hardware or software wallet. Transactions are stored across a global network of thousands of computers, and our software wallets simply expand on these by adding useful additional data like a list of contacts or descriptions for transactions.
+
+Typically it's a good idea to hide underlying technical complexity and only reveal to users what they need to successfully perform the tasks they came for. But because the fundamentals are so different in crypto, and it's not (yet) adopted by the mainstream, we have to make some tradeoffs in favor of explaining things more often than not, and providing more guidance than usual.
+
+---
+
 ## Wallet creation
 
 There's a whole separate section about this. [Check it out](creating-a-wallet).
