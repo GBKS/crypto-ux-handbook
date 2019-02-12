@@ -18,6 +18,28 @@ One of the first things any cryptocurrency user needs to do is to set up a walle
 
 ---
 
+## Shared or personal?
+
+<fig desktop="third,right">
+	<fig-img
+		src="/images/user-onboarding/copay-new-wallet-types.png"
+		width="798"
+		height="1254"
+		alt="Copay wallet - new wallet options"
+	/>
+	<fig-cap
+		caption="Options for setting up a new wallet."
+		title="Copay wallet"
+		link="https://copay.io/"
+	/>
+</fig>
+
+There are many uses for wallets with multiple owners, where each owner has their own key. This is typically called a multi-sig (or multi-signature) wallet because transactions require consent (via crypographic signature) from more than one owner. Shared wallets can be useful to improve security in business contexts, so a lost or compromised key does not result in a catastrophic loss. But they can also be useful in everyday life. For example, when a child has a wallet for allowance, but requires a parent or guardian to approve transactions.
+
+The setup process for shared wallets is more complex, because all owners need to participate in the wallet creation and exchange information with each other. More on this will be added soon in a dedicated page in this handbook.
+
+---
+
 ## Seed phrase
 
 <fig desktop="half,right">
@@ -34,7 +56,7 @@ One of the first things any cryptocurrency user needs to do is to set up a walle
 	/>
 </fig>
 
-The majority of wallets are deterministic. That means that all addresses used for sending and receiving are generated from a seed phrase. That seed phrase is a list of 24 words. Because that seed phrase is so important, it should receive a lot of attention during the wallet creation and users should receive clear instructions on what it is and how to protect it.
+The majority of wallets are deterministic. That means that all addresses used for sending and receiving are generated from a seed phrase. That seed phrase is a list of 12 words. Because that seed phrase is so important, it should receive a lot of attention during the wallet creation and users should receive clear instructions on what it is and how to protect it.
 
 Seed phrases may also be called recovery phrases, mnemonic seeds, paper keys and other terms. While it's tempting to use the technical term, a more easily understandable term like "recovery phrase" that users already know from other software they use can be the smarter choice. 
 
@@ -102,6 +124,104 @@ Seed phrases may also be called recovery phrases, mnemonic seeds, paper keys and
 		height="2560"
 		alt="Ethos wallet app user onboarding" 
 		caption="Final confirmation that the software is now set up for use."
+	/>
+</image-grid>
+
+### Copay
+
+[Copay](https://copay.io) is an open-source Bitcoin and Bitcoin Cash wallet created and maintained by [bitpay](https://bitpay.com/). It includes quite a few features and also provides a hosted service for communication between wallet users (for things like creating and transacting via shared wallets).
+
+<image-grid count="8">
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-1-info-1.png" 
+		width="798" 
+		height="1254"
+		alt="Copay wallet intro - Bitcoin is digital monei" 
+		caption="The first three screen explain very basic features of Bitcoin."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-2-info-2.png" 
+		width="798" 
+		height="1254"
+		alt="Copay wallet intro - Bitcoin is a currency"
+		caption="These info screens provide a simple framework for Bitcoin use cases."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-3-info-3.png" 
+		width="798" 
+		height="1254"
+		alt="Copay wallet intro - security"
+		caption="An important point about security, but the note about the app 'storing' bitcoins can be misleading."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-4-info-4-password-question.png"
+		width="798" 
+		height="1254"
+		alt="Copay wallet password protection" 
+		caption="Users can choose whether to encrypt their local wallet data with a password"
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-5-backup-wallet.png"
+		width="798" 
+		height="1254"
+		alt="Copay wallet backup information" 
+		caption="Another important reminder about the user being responsible for their keys."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-6-privacy-hint.png" 
+		width="798" 
+		height="1254"
+		alt="Copay wallet privacy reminder" 
+		caption="A playful screen for reinforcing the points about security & privacy."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-7-privacy-hint-screenshot-warning.png" 
+		width="798" 
+		height="1254"
+		alt="Copay wallet screenshot privacy warning" 
+		caption="Some mobile apps disable screenshotting for screens with sensitive informtion."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-8-backup-encryption-password.png" 
+		width="798" 
+		height="1254"
+		alt="Copay wallet encryption password input" 
+		caption="The password users enter here is used to encrypt the local wallet data."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-9-seed-phrase.png" 
+		width="800" 
+		height="1256"
+		alt="Copay wallet seed display" 
+		caption="Display of the recovery phrase of the newly created wallet."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-10-seed-phrase-verification.png" 
+		width="400" 
+		height="628"
+		alt="Copay wallet seed verification" 
+		caption="Users are asked to verify that they copied the recovery phrase by tapping the words in the correct order."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-11-seed-input-complete.png" 
+		width="400" 
+		height="628"
+		alt="Copay wallet backup confirmation" 
+		caption="Final confirmation that the wallet is set up and backed up."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-12-review-terms.png" 
+		width="400" 
+		height="628"
+		alt="Copay wallet creation review" 
+		caption="Copay specifically requires users to tick off that they understand their responsibilities."
+	/>
+	<image-grid-img
+		src="/images/user-onboarding/copay-onboarding-13-home-screen-ready-message.png" 
+		width="400" 
+		height="628"
+		alt="Copay wallet home screen" 
+		caption="The home screen nicely confirms that the wallet us now ready."
 	/>
 </image-grid>
 
