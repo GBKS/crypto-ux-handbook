@@ -56,9 +56,11 @@ The setup process for shared wallets is more complex, because all owners need to
 	/>
 </fig>
 
-The majority of wallets are deterministic. That means that all addresses used for sending and receiving are generated from a seed phrase. That seed phrase is a list of 12 words. Because that seed phrase is so important, it should receive a lot of attention during the wallet creation and users should receive clear instructions on what it is and how to protect it.
+The majority of wallets are deterministic. That means that all addresses used for sending and receiving are generated from a seed phrase. That seed phrase is a list of 12 or more words. Because that seed phrase is so important, it should receive a lot of attention during the wallet creation and users should receive clear instructions on what it is and how to protect it.
 
-Seed phrases may also be called recovery phrases, mnemonic seeds, paper keys and other terms. While it's tempting to use the technical term, a more easily understandable term like "recovery phrase" that users already know from other software they use can be the smarter choice. 
+Seed phrases may also be called recovery phrases, mnemonic seeds, paper keys and other terms. While it's tempting to use the technical term, a more easily understandable term like "recovery phrase" that users already know from other software can be the smarter choice.
+
+Another element to consider is that multiple wallets for different cryptocurrencies can be generated from the same seed phrase. For example, a user can have Savings and Business Bitcoin wallets, as well as a Monero wallet, that were generated from the same seed phrase. This is more convenient, but also less secure.
 
 ---
 
