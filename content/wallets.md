@@ -57,7 +57,14 @@ The core of each wallet is about sending and receiving money. To support this, t
 - [Addresses](addresses)
 - [Home screens](home-screens)
 
-Even if a project has a web wallet, mobile wallet and desktop wallet, this is the functionality that's usually consistent across all of them.
+Even if a project has a web wallet, mobile wallet and desktop wallet, this is the functionality that's usually consistent across all of them. Selecting the right type of wallet for your needs requires an understanding of the trade-offs between security and accessibility offered by different types of wallets.
+
+The following list defines different types of wallets from the most secure and least accessible to the least secure and most accessible:
+
+- [Paper Wallets](#paper-wallets)
+- [Hardware Wallets](#hardware-wallets)
+- Web Wallets
+- Mobile Wallets
 
 ## Advanced functionality
 
@@ -156,4 +163,15 @@ So as backwards as it may sound for a digital currency, printing the seed and fi
 	/>
 </fig>
 
-Hardware wallets are incredibly important for secure storage, but are currently not yet part of this handbook. [Ledger](https://www.ledger.com?r=21196520a426) and [Trezor](https://trezor.io/) are two popular choices.
+Hardware wallets are the most popular option for storing digital assets that do not need to be readily accessible. Using a hardware wallet requires less technical understanding than paper wallets and the interface tends to be more user-friendly. 
+
+A hardware wallet consists of a USB drive or other small device that connects to your computer. Money can be sent to and from the wallet without the portion of memory where the assets are stored ever connecting to (or registering with) the network.
+
+The main security issues with hardware wallets lie in the potential for them to be tampered with before reaching the user and having a hardware device get lost or stolen. Never purchase a used hardware wallet; order a reputable device directly from the manufacturer or a certified retailer and always store the wallet in a safe location.
+
+Popular hardware wallets include:
+
+- [CoolWallet](https://coolwallet.io/)
+- [Keepkey](https://shapeshift.io/keepkey/)
+- [Ledger](https://www.ledger.com?r=21196520a426) 
+- [Trezor](https://trezor.io/) are two popular choices.
