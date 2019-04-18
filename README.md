@@ -19,6 +19,8 @@ There are many ways to help out:
 
 Big picture, we all want to see world-class UX design in crypto projects. So any way you can help make that happen works.
 
+<table border="0"><tr>  <td><a href="https://gittron.me/bots/0xc696b20110f1459a7ee911bcddee4fc0"><img src="https://s3.amazonaws.com/od-flat-svg/0xc696b20110f1459a7ee911bcddee4fc0.png" alt="gittron" width="50"/></a></td><td><a href="https://gittron.me/bots/0xc696b20110f1459a7ee911bcddee4fc0">SUPPORT US WITH GITTRON</a></td></tr></table>
+
 ## Content guidelines
 
 A handbook is meant to be practical for day-to-day use. These guidelines are based on that idea and were used when creating the site:
