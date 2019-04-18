@@ -57,14 +57,14 @@ The core of each wallet is about sending and receiving money. To support this, t
 - [Addresses](addresses)
 - [Home screens](home-screens)
 
-Even if a project has a web wallet, mobile wallet and desktop wallet, this is the functionality that's usually consistent across all of them. Selecting the right type of wallet for your needs requires an understanding of the trade-offs between security and accessibility offered by different types of wallets.
+Even if a project has a web wallet, mobile wallet and desktop wallet, this is the functionality that's usually consistent across all of them. Selecting the right type of wallet for your needs requires understanding the trade-off between security and accessibility made by different types of wallets. Using a more secure wallet takes a higher level of technical understanding and 
 
 The following list defines different types of wallets from the most secure and least accessible to the least secure and most accessible:
 
 - [Paper Wallets](#paper-wallets)
 - [Hardware Wallets](#hardware-wallets)
-- Web Wallets
-- Mobile Wallets
+- [Web and Desktop Wallets](#web-wallets)
+- [Mobile Wallets](#mobile-wallets)
 
 ## Advanced functionality
 
@@ -174,4 +174,58 @@ Popular hardware wallets include:
 - [CoolWallet](https://coolwallet.io/)
 - [Keepkey](https://shapeshift.io/keepkey/)
 - [Ledger](https://www.ledger.com?r=21196520a426) 
-- [Trezor](https://trezor.io/) are two popular choices.
+- [Trezor](https://trezor.io/)
+
+## Web and Desktop Wallets
+
+<fig desktop="half,right" drop="false">
+	<fig-img
+		src="/images/wallets/exod.png" 
+		width="1227" 
+		height="944" 
+		alt="Exodus Wallet"
+	/>
+	<fig-cap
+		caption="The Exodus desktop wallet."
+		title="exodus.io"
+		link="https://www.exodus.io/"
+	/>
+</fig>
+
+Web and desktop wallets take the form of websites, browser extensions, and downloadable software. Most web and desktop wallets will guide users through the process of creating a wallet and provide options for backing up the wallet.
+
+Web and desktop wallets are considered a form of "hot storage" because the private key will be exposed to the internet when the wallet is being created.
+
+Hot storage is less secure than cold storage but provides greater accessibility. This is often useful for developers who frequently use digital assets in the course of programming blockchain applications like dApps and smart contracts.
+
+Popular web and desktop wallets include:
+
+- [Exodus](https://www.exodus.io/)
+- [Metamask](https://www.ledger.com?r=21196520a426) 
+- [MyEtherWallet](https://www.myetherwallet.com/)
+
+## Mobile Wallets
+
+<fig desktop="half,right" drop="false">
+	<fig-img
+		src="/images/wallets/mobilewallet.jpg" 
+		width="1227" 
+		height="944" 
+		alt="Opera Wallet"
+	/>
+	<fig-cap
+		caption="The Opera mobile wallet."
+		title="opera.com"
+		link="https://www.opera.com/crypto"
+	/>
+</fig>
+
+The easiest way to use cryptocurrency on-the-go is with a mobile wallet. Mobile wallets come as an app that can be downloaded to your smart phone.
+
+In the same way that many people keep small amounts of cash in their wallet while storing larger amounts in a checking or savings account, individuals use mobile wallets to keep small amounts of cryptocurrency for day-to-day use while storing the majority of their assets in [paper](#paper-wallets) or [hardware](#hardware-wallets) wallets.
+
+Popular mobile wallets include:
+
+- [Enjin](https://enjinwallet.io/)
+- [Opera](https://www.opera.com/crypto) 
+- [Trust Wallet](https://trustwallet.com/)
