@@ -57,7 +57,7 @@ The core of each wallet is about sending and receiving money. To support this, t
 - [Addresses](addresses)
 - [Home screens](home-screens)
 
-Even if a project has a web wallet, mobile wallet and desktop wallet, this is the functionality that's usually consistent across all of them. Selecting the right type of wallet for your needs requires understanding the trade-off between security and accessibility made by different types of wallets. Using a more secure wallet takes a higher level of technical understanding and 
+Even if a project has a web wallet, mobile wallet and desktop wallet, this is the functionality that's usually consistent across all of them. Selecting the right type of wallet for your needs requires understanding the trade-off between security and accessibility made by different types of wallets. Using a more secure wallet takes a higher level of technical understanding and more time to set up the security features. Other wallets are much easier to use, but don't offer the same level of security.
 
 The following list defines different types of wallets from the most secure and least accessible to the least secure and most accessible:
 
