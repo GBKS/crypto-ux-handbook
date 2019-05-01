@@ -57,14 +57,7 @@ The core of each wallet is about sending and receiving money. To support this, t
 - [Addresses](addresses)
 - [Home screens](home-screens)
 
-Even if a project has a web wallet, mobile wallet and desktop wallet, this is the functionality that's usually consistent across all of them. Selecting the right type of wallet for your needs requires understanding the trade-off between security and accessibility made by different types of wallets. Using a more secure wallet takes a higher level of technical understanding and more time to set up the security features. Other wallets are much easier to use, but don't offer the same level of security.
-
-The following list defines different types of wallets from the most secure and least accessible to the least secure and most accessible:
-
-- [Paper Wallets](#paper-wallets)
-- [Hardware Wallets](#hardware-wallets)
-- [Web and Desktop Wallets](#web-wallets)
-- [Mobile Wallets](#mobile-wallets)
+Even if a project has a web wallet, mobile wallet and desktop wallet, this is the functionality that's usually consistent across all of them.
 
 ## Advanced functionality
 
@@ -123,7 +116,17 @@ Signing messages, [smart contracts](https://en.wikipedia.org/wiki/Smart_contract
 
 ---
 
-## Paper wallets
+## Types of wallets
+Selecting the right type of wallet for your needs requires understanding the trade-off between security and accessibility made by different types of wallets. All wallets incorporate basic functionality, but different types offer different features that expand the utility of a wallet. Choosing a more secure wallet takes a higher level of technical understanding and more time to set up the security features, whereas other wallets are much easier to use but don't offer the same level of security.
+
+The following list defines different types of wallets from the most secure and least accessible to the least secure and most accessible:
+
+- [Paper Wallets](#paper-wallets)
+- [Hardware Wallets](#hardware-wallets)
+- [Web and Desktop Wallets](#web-wallets)
+- [Mobile Wallets](#mobile-wallets)
+
+### Paper wallets
 
 <fig desktop="half,right">
 	<fig-img
@@ -143,11 +146,13 @@ The safest backup is a paper wallet. It can simply be your wallet seed written o
 
 This is another aspect of cryptocurrencies that is not obvious to many. Wallet seeds can be created by computers that have never been online. Money can be sent to wallet addresses, without the wallet having ever been connected to (or registered with) the network.
 
+Paper wallets deliberately avoid advanced functions because the point of a paper wallet is to keep things simple to avoid creating opportunities for penetration.
+
 So as backwards as it may sound for a digital currency, printing the seed and filing the paper away is a great security practice. 
 
 ---
 
-## Hardware wallets
+### Hardware wallets
 
 <fig desktop="half,right" drop="false">
 	<fig-img
@@ -165,7 +170,7 @@ So as backwards as it may sound for a digital currency, printing the seed and fi
 
 Hardware wallets are the most popular option for storing digital assets that do not need to be readily accessible. Using a hardware wallet requires less technical understanding than paper wallets and the interface tends to be more user-friendly. 
 
-A hardware wallet consists of a USB drive or other small device that connects to your computer. Money can be sent to and from the wallet without the portion of memory where the assets are stored ever connecting to (or registering with) the network.
+A hardware wallet consists of a USB drive or other small device that connects to your computer. Money can be sent to and from the wallet without the portion of memory where the assets are stored ever connecting to (or registering with) the network. When hardware wallets incorporate advanced features, they tend to focus on security rather than exposing unique features of the assets being held. We're talking about signing policies that control what wallets a user can send and receive assets from or how much cryptocurrency can be sent at a time rather than features that focus on things like mining or staking.
 
 The main security issues with hardware wallets lie in the potential for them to be tampered with before reaching the user and having a hardware device get lost or stolen. Never purchase a used hardware wallet; order a reputable device directly from the manufacturer or a certified retailer and always store the wallet in a safe location.
 
@@ -176,7 +181,7 @@ Popular hardware wallets include:
 - [Ledger](https://www.ledger.com?r=21196520a426) 
 - [Trezor](https://trezor.io/)
 
-## Web and Desktop Wallets
+### Web and Desktop Wallets
 
 <fig desktop="half,right" drop="false">
 	<fig-img
@@ -196,7 +201,7 @@ Web and desktop wallets take the form of websites, browser extensions, and downl
 
 Web and desktop wallets are considered a form of "hot storage" because the private key will be exposed to the internet when the wallet is being created.
 
-Hot storage is less secure than cold storage but provides greater accessibility. This is often useful for developers who frequently use digital assets in the course of programming blockchain applications like dApps and smart contracts.
+Hot storage is less secure than cold storage but provides greater accessibility. This is often useful for developers who frequently use digital assets in the course of programming blockchain applications like dApps and smart contracts. Web and desktop wallets also tend to be the go-to for advanced functions that give users the ability to [mine cryptocurrency](#mining), stake tokens, vote on masternodes, or sign transactions that interact with smart contracts.
 
 Popular web and desktop wallets include:
 
@@ -204,7 +209,7 @@ Popular web and desktop wallets include:
 - [Metamask](https://www.ledger.com?r=21196520a426) 
 - [MyEtherWallet](https://www.myetherwallet.com/)
 
-## Mobile Wallets
+### Mobile Wallets
 
 <fig desktop="half,right" drop="false">
 	<fig-img
@@ -223,6 +228,8 @@ Popular web and desktop wallets include:
 The easiest way to use cryptocurrency on-the-go is with a mobile wallet. Mobile wallets come as an app that can be downloaded to your smart phone.
 
 In the same way that many people keep small amounts of cash in their wallet while storing larger amounts in a checking or savings account, individuals use mobile wallets to keep small amounts of cryptocurrency for day-to-day use while storing the majority of their assets in [paper](#paper-wallets) or [hardware](#hardware-wallets) wallets.
+
+Mobile wallets may incorporate advanced functions depending on the assets maintained by a wallet. For example, Tron relies on [masternodes](#masternodes) to secure the network so mobile wallets for Tron often allow users to vote for masternodes in the application. Other wallets may feature [staking](#staking), [mining](#mining), and the ability to interact with smart contracts.
 
 Popular mobile wallets include:
 
