@@ -150,6 +150,12 @@ Paper wallets deliberately avoid advanced functions because the point of a paper
 
 So as backwards as it may sound for a digital currency, printing the seed and filing the paper away is a great security practice. 
 
+Popular paper wallets include:
+
+- [BitAddress](https://www.bitaddress.org/)
+- [Mycelium](https://mycelium.com/mycelium-entropy.html)
+- [WalletGenerator](https://walletgenerator.net/)
+
 ### Hardware wallets
 
 <fig desktop="half,right" drop="false">
