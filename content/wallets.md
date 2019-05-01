@@ -150,8 +150,6 @@ Paper wallets deliberately avoid advanced functions because the point of a paper
 
 So as backwards as it may sound for a digital currency, printing the seed and filing the paper away is a great security practice. 
 
----
-
 ### Hardware wallets
 
 <fig desktop="half,right" drop="false">
@@ -181,7 +179,7 @@ Popular hardware wallets include:
 - [Ledger](https://www.ledger.com?r=21196520a426) 
 - [Trezor](https://trezor.io/)
 
-### Web and Desktop Wallets
+### Web and desktop wallets
 
 <fig desktop="half,right" drop="false">
 	<fig-img
@@ -209,7 +207,7 @@ Popular web and desktop wallets include:
 - [Metamask](https://www.ledger.com?r=21196520a426) 
 - [MyEtherWallet](https://www.myetherwallet.com/)
 
-### Mobile Wallets
+### Mobile wallets
 
 <fig desktop="half,right" drop="false">
 	<fig-img
