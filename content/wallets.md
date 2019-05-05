@@ -174,7 +174,7 @@ Popular paper wallets include:
 
 Hardware wallets are the most popular option for storing digital assets that do not need to be readily accessible. Using a hardware wallet requires less technical understanding than paper wallets and the interface tends to be more user-friendly. 
 
-A hardware wallet consists of a USB drive or other small device that connects to your computer. Money can be sent to and from the wallet without the portion of memory where the assets are stored ever connecting to (or registering with) the network. When hardware wallets incorporate advanced features, they tend to focus on security rather than exposing unique features of the assets being held. We're talking about signing policies that control what wallets a user can send and receive assets from or how much cryptocurrency can be sent at a time rather than features that focus on things like mining or staking.
+A hardware wallet consists of a USB drive or other small device that connects to your computer. Money can be sent to and from the wallet without the portion of memory where the assets are stored ever connecting to (or registering with) the network. When hardware wallets incorporate advanced features, they tend to focus on security rather than exposing unique features of the assets being held. So a wallet may offer features such as signing policies that control what wallets a user can send and receive assets from or how much cryptocurrency can be sent at a time, rather than features around mining and staking.
 
 The main security issues with hardware wallets lie in the potential for them to be tampered with before reaching the user and having a hardware device get lost or stolen. Never purchase a used hardware wallet; order a reputable device directly from the manufacturer or a certified retailer and always store the wallet in a safe location.
 
@@ -189,9 +189,9 @@ Popular hardware wallets include:
 
 <fig desktop="half,right" drop="false">
 	<fig-img
-		src="/images/wallets/exod.png" 
-		width="1227" 
-		height="944" 
+		src="/images/wallets/exodus-desktop-wallet.png" 
+		width="1696" 
+		height="1108" 
 		alt="Exodus Wallet"
 	/>
 	<fig-cap
@@ -217,9 +217,9 @@ Popular web and desktop wallets include:
 
 <fig desktop="half,right" drop="false">
 	<fig-img
-		src="/images/wallets/mobilewallet.jpg" 
-		width="1227" 
-		height="944" 
+		src="/images/wallets/opera-mobile-wallet.jpg" 
+		width="2048" 
+		height="1362" 
 		alt="Opera Wallet"
 	/>
 	<fig-cap
