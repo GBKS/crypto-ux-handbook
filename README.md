@@ -6,7 +6,7 @@ The goal of the Crypto UX Handbook is to provide an entry point and practical re
 
 ## Collaboration
 
-The site and content so far were created by [Christoph Ono](https://github.com/GBKS). Several people have shown interest in contributing and supporting this effort, so this repository was created to facilitate that. As soon as more people contribute, their names will be listed here and on the site. This is an invite to join and help shape this effort.
+The site and content so far were created by [Christoph Ono](https://github.com/GBKS). Several people have shown interest in contributing and supporting this effort, so this repository was created to facilitate that. This is an invite to join and help shape this effort.
 
 Github is a great tool for collaboration, but it does require some technical knowledge. So if you would like to contribute, but are not familiar with Github, feel free to each out. Whether it's in a Google Doc or by email, we will find a way for you to participate. 
 
@@ -20,6 +20,11 @@ There are many ways to help out:
 Big picture, we all want to see world-class UX design in crypto projects. So any way you can help make that happen works.
 
 <table border="0"><tr>  <td><a href="https://gittron.me/bots/0xc696b20110f1459a7ee911bcddee4fc0"><img src="https://s3.amazonaws.com/od-flat-svg/0xc696b20110f1459a7ee911bcddee4fc0.png" alt="gittron" width="50"/></a></td><td><a href="https://gittron.me/bots/0xc696b20110f1459a7ee911bcddee4fc0">SUPPORT US WITH GITTRON</a></td></tr></table>
+
+### Contributors
+
+- [gbks](https://github.com/GBKS)
+- [goldfarbas](https://github.com/goldfarbas)
 
 ## Content guidelines
 

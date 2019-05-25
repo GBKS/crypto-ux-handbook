@@ -23,3 +23,8 @@ This site was created by [Christoph Ono](http://www.germanysbestkeptsecret.com) 
 ## Contribute
 
 See something that can be improved? Contribute on the [Github repo](https://github.com/GBKS/crypto-ux-handbook). Want to see something added but don't have the time or resources? Set up a [bounty here](https://explorer.bounties.network/bounty/1908).
+
+## Contributors
+
+- [gbks](https://github.com/GBKS)
+- [goldfarbas](https://github.com/goldfarbas)
