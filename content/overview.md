@@ -12,7 +12,9 @@ This is the official design handbook that all [blockchain](https://en.wikipedia.
 
 <toc location="overview" />
 
-This site is a work-in-progress. <a href="mailto:chri@sto.ph">Let me know</a> if you find something incorrect, or would like to see a certain topic added. I'm also always looking for screenshots of various crypto wallets and software. Thanks.
+This site is no longer being developed, but the effort of documenting best practices and guidelines for crypto UX continues with the <a href="https://bitcoin.design/guide/" target="_blank">Bitcoin Design Guide</a>.
+
+As for this site, <a href="mailto:chri@sto.ph">let me know</a> if you find something incorrect, or would like to see a certain topic added. Thanks.
 
 ---
 
@@ -23,8 +25,3 @@ This site was created by [Christoph Ono](http://www.germanysbestkeptsecret.com) 
 ## Contribute
 
 See something that can be improved? Contribute on the [Github repo](https://github.com/GBKS/crypto-ux-handbook). Want to see something added but don't have the time or resources? Set up a [bounty here](https://explorer.bounties.network/bounty/1908).
-
-## Contributors
-
-- [gbks](https://github.com/GBKS)
-- [goldfarbas](https://github.com/goldfarbas)
