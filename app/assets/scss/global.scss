@@ -1,0 +1,341 @@
+// Global base layer: reset, typography, forms and theme variables.
+// Everything component-specific lives in the components' scoped styles.
+
+@use 'normalize';
+
+:root {
+	--background: 255, 255, 255;
+	--backgroundHex: #ffffff;
+
+	--topBarHex: #F9B747;
+
+	--titleBold: 0, 0, 0;
+	--titleBoldHex: #000000;
+
+	--title: 0, 0, 0;
+	--titleHex: #000000;
+
+	--headers: 0, 0, 0;
+	--headersHex: #000000;
+
+	--copy: 128, 128, 128;
+	--copyHex: #808080;
+
+	--highlight: 242, 187, 21;
+	--highlightHex: #F2BB15;
+
+	--link: 242, 187, 21;
+	--linkHex: #3380FF;
+
+	--accent: 242, 187, 21;
+	--accentHex: #F2BB15;
+}
+
+
+* html .clearfix                         { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/** Typography */
+html {
+    font-family: $fonts;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: -0.01rem;
+    font-weight: 400;
+    color: #404040;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+
+    @include media-query(small) {
+        font-size: 18px;
+    }
+}
+
+body {
+    &.bg-grey {
+        background-color: #fafafa;
+    }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+    outline: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p {
+    margin: 0 0 0 0;
+    color: #808080;
+
+    a {
+        color: $blue;
+    }
+}
+
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block;
+}
+
+b {
+    font-weight: 500;
+}
+
+a,
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        color: $blue;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0 0;
+    font-weight: 500;
+    color: #000000;
+    font-family: $fonts;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+
+        &:hover {
+            color: $blue;
+        }
+
+        &:visited {
+            color: #000000;
+        }
+    }
+}
+
+h1 { font-size: 26px; }
+h2 { font-size: 22px; }
+h3 { font-size: 18px; }
+h4 { font-size: 14px; }
+h5 { font-size: 12px; }
+h6 { font-size: 11px; }
+
+@include media-query(huge) {
+    h2 {
+        font-size: 36px;
+    }
+}
+
+a:link img {
+    border: none;
+}
+
+.button,
+a.button,
+button,
+input[type=submita] {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid $purple;
+    border-radius: 3px;
+    padding: 0 10px 0 10px;
+    transition: all 0.1s ease-out;
+    cursor: pointer;
+    background: transparent;
+    color: $purple;
+    box-shadow: 0 10px 30px -10px rgba(#000000, .25);
+    box-sizing: border-box;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:link,
+    &:visited {
+        color: $purple;
+    }
+
+    span {
+        // font-size: 16px;
+        // margin-right: 6px;
+        // vertical-align: middle;
+    }
+
+    &:hover {
+        border-color: $purple;
+        color: $purple;
+        background-color: rgba($purple, 0.025);
+        box-shadow: 0 5px 10px -5px rgba(#000000, .25);
+    }
+
+    svg {
+        fill: $red;
+        stroke: $red;
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+        transform: translateY(-1px);
+
+        &:first-child {
+            margin-right: 1px;
+        }
+
+        &:last-child {
+            margin-left: 4px;
+        }
+    }
+
+    &.--medium {
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 1px;
+
+        svg {
+            width: 18px;
+            height: 18px;
+            transform: translateY(-1px);
+        }
+    }
+
+    &.--big {
+        font-size: 16px;
+        line-height: 34px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 2px;
+
+        svg {
+            width: 22px;
+            height: 22px;
+            transform: translateY(-1px);
+        }
+    }
+
+    &.--filled {
+        color: white;
+        background-color: $purple;
+        border-width: 0;
+
+        &:hover {
+            background-color: $blue;
+        }
+    }
+}
+
+
+form,
+.form {
+    label {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
+    }
+
+    input {
+        &[type=text],
+        &[type=email],
+        &[type=password] {
+            border-left-width: 0;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-bottom-width: 0;
+            // border-bottom: 1px solid #dedede;
+            width: 100%;
+            font-size: 20px;
+            line-height: 36px;
+            border-radius: 0;
+            text-indent: 0;
+            padding: 0 0;
+
+            &::placeholder {
+                color: #bbbbbb;
+            }
+
+            &:focus {
+                color: $blue;
+                // border-color: $blue;
+            }
+        }
+
+        &[type=submit] {
+            margin-top: 15px;
+            display: inline-block;
+            border-width: 0;
+        }
+    }
+
+    label + select {
+        margin-top: 5px;
+    }
+
+    label + input {
+        margin-top: 0px;
+    }
+
+    input + label,
+    select + label,
+    p.error + label {
+        margin-top: 20px;
+    }
+
+    p.error {
+        margin-top: 5px;
+        color: $light-blue;
+    }
+
+    @include media-query(small) {
+        label {
+            font-size: 16px;
+        }
+
+        input {
+            &[type=text],
+            &[type=email],
+            &[type=password] {
+                font-size: 24px;
+                line-height: 44px;
+            }
+        }
+    }
+
+    @include media-query(medium-up) {
+        
+    }
+}
+
+@keyframes spinLoop {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+#container {
+	display: none;
+
+	&.-active {
+		display: block;
+	}
+}

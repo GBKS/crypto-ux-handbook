@@ -1,5 +1,9 @@
 [build]
-  publish = "site"
+  command = "npm run generate"
+  publish = ".output/public"
+
+[build.environment]
+  NODE_VERSION = "24"
 
 # Apex → www (www is the canonical host, as on the old server).
 [[redirects]]
@@ -8,19 +12,25 @@
   status = 301
   force = true
 
-# Missing content files must 404, not fall through to the SPA shell below.
+# Legacy article URLs.
 [[redirects]]
-  from = "/content/*"
-  to = "/404.html"
-  status = 404
+  from = "/bdh/*"
+  to = "/:splat"
+  status = 301
 
-# SPA fallback: the Vue router runs in history mode (/wallets, /bdh/wallets).
+# The old server published its sitemap at /sitemap.
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/sitemap"
+  to = "/sitemap.xml"
   status = 200
 
 [[headers]]
   for = "/*"
   [headers.values]
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+# Built assets are content-hashed and never change.
+[[headers]]
+  for = "/_nuxt/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

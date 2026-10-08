@@ -1,0 +1,17 @@
+{
+  "name": "crypto-ux-handbook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "npx serve .output/public"
+  },
+  "dependencies": {
+    "@nuxt/content": "3.16.1",
+    "nuxt": "4.5.2"
+  },
+  "devDependencies": {
+    "sass": "1.104.1"
+  }
+}
