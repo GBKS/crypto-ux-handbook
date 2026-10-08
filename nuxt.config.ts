@@ -55,6 +55,10 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    // Plain static output everywhere. On Netlify, Nuxt would otherwise switch to its
+    // netlify-static preset, which writes to dist/ and adds a catch-all _redirects file
+    // that shadows the rules in netlify.toml.
+    preset: 'static',
     prerender: {
       // wallets.html instead of wallets/index.html, so Netlify serves /wallets without a trailing-slash redirect.
       autoSubfolderIndex: false,
