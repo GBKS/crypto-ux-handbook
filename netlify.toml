@@ -1,0 +1,26 @@
+[build]
+  publish = "site"
+
+# Apex → www (www is the canonical host, as on the old server).
+[[redirects]]
+  from = "https://cryptouxhandbook.com/*"
+  to = "https://www.cryptouxhandbook.com/:splat"
+  status = 301
+  force = true
+
+# Missing content files must 404, not fall through to the SPA shell below.
+[[redirects]]
+  from = "/content/*"
+  to = "/404.html"
+  status = 404
+
+# SPA fallback: the Vue router runs in history mode (/wallets, /bdh/wallets).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
