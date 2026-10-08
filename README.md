@@ -38,7 +38,24 @@ A handbook is meant to be practical for day-to-day use. These guidelines are bas
 
 ## Working with this repository
 
-You can preview the content of this repository [here](https://gbks.github.io/crypto-ux-handbook/). The content is written in [markdown](https://daringfireball.net/projects/markdown/), with the addition of a few custom components that require HTML (in the markdown). These components are not well-documented yet, so it's best to refer to the existing markdown files to start. Every page in the handbook has a single markdown file ("content/page-name"), and a dedicated folder for images ("images/page-name"). Images are not 100% well organized at the moment.
+The content is written in [markdown](https://daringfireball.net/projects/markdown/), with the addition of a few custom components that require HTML (in the markdown). These components are not well-documented yet, so it's best to refer to the existing markdown files to start. Every page in the handbook has a single markdown file (`content/page-name.md`), and a dedicated folder for images (`public/images/page-name/`). Images are not 100% well organized at the moment.
+
+- The table of contents, page order and page descriptions live in `content/data.json`. A new page needs an entry there.
+- `content/template.md` is a starting point for new pages; it is not published.
+- The custom components (`<fig>`, `<image-grid>`, `<flow>`, `<ann>`, `<break />` and friends) are Vue components in `app/components/content/`.
+
+### Running the site locally
+
+The site is built with [Nuxt](https://nuxt.com) and [Nuxt Content](https://content.nuxt.com) and published as static HTML on Netlify. You need [Node.js](https://nodejs.org) 24 (see `.nvmrc`).
+
+```bash
+npm install
+npm run dev
+```
+
+This starts a local server at http://localhost:3000 that reloads as you edit content. To build the static site the way Netlify does, run `npm run generate`; the result is in `.output/public`.
+
+Every pull request gets a Netlify preview link, so you can check your changes without running anything locally.
 
 Use [Issues](https://github.com/GBKS/crypto-ux-handbook/issues) to discuss the content and request additions and improvements.
 

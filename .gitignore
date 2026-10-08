@@ -2,3 +2,8 @@
 sftp-config.json
 config.codekit3
 PLAN.md
+node_modules/
+.nuxt/
+.output/
+.data/
+dist
